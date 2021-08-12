@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+body {
+  margin-right: 10%;
+}
+.main {
+  width: 100vw;
+  height: 80vh;
+}
+nav {
+  width: 100%;
+  background: rgb(39, 37, 37);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 50px;
+}
+
+nav ul li {
+  list-style: none;
+  color: white;
+  cursor: pointer;
+  color: white;
+}
+nav ul li a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.introduction {
+  display: flex;
+  flex-direction: row;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-image {
+  height: 300px;
+  width: 50%;
+}
+.intro-texts {
+  width: 50%;
+  margin-left: 3%;
+}
+.phone-link {
+  height: 5vh;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 5%;
+  box-shadow: 3px 3px 5px 5px rgba(39, 37, 37, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.phone-link a {
+  margin-left: 5%;
+  justify-self: flex-end;
+  font-size: 1.5rem;
+}
+
+footer {
+  background: black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-link {
+  margin-right: 3rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.margin3 {
+  margin: 2%;
+  padding: 3%;
+  width: 98%;
+}
+.project-img {
+  width: 100px;
+  height: 100px;
+}
+.proj {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: cornflowerblue;
+  margin-bottom: 3%;
+  font-size: 0.8rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  height: 80vh;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 80%;
+  width: 40%;
+  border-right: 2px solid black;
+}
+.icon {
+  background: cornflowerblue;
+  font-size: 3rem;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.icon:hover {
+  font-size: 3.25rem;
+}
+.contact-detail {
+  height: 75vh;
+  background: chocolate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: xx-large;
+  overflow-y: scroll;
 }
