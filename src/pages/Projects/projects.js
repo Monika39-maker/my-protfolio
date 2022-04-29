@@ -18,7 +18,7 @@ function Projects() {
 
                 </div>
                 <div className="proj">
-                    <a href="https://vast-reaches-96167.herokuapp.com/"><img src={sabinaimg} className="project-img"/></a>
+                    <a href="https://vast-reaches-96167.herokuapp.com/"><img src={sabinaimg} className="project-img" alt='lady in saree'/></a>
                     <div className="proj-info">
                         <h3 className="text-center">Django based Ecommerce Website</h3>
                         <p>This website uses Python and Django. It saves registered users information in postgresql database. All the images are saved in AWS. It also uses bcrypt to safeguard the users data. At the end of checkout process, the total of price is calculated and retrieved from the backend instead of frontend so that it cannot be manupulated via javascript. The paypal api is used to enabe the transaction between the user and the client</p>
