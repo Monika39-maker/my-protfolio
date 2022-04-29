@@ -86,14 +86,20 @@ a {
 .project-img {
   width: 100px;
   height: 100px;
+  /* margin: 2% 40%; */
+  border: solid black 2px;
+  border-radius: 35%;
 }
 .proj {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   background: cornflowerblue;
-  margin-bottom: 3%;
-  font-size: 0.8rem;
+  margin: 3%;
+  font-size: 1.5rem;
+  min-height: 500px;
+  padding: 20px;
 }
 
 .contact {
@@ -102,7 +108,9 @@ a {
   justify-content: space-evenly;
   align-items: center;
   border: 1px solid black;
-  height: 80vh;
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
 }
 .icons {
   display: flex;
@@ -123,12 +131,13 @@ a {
   font-size: 3.25rem;
 }
 .contact-detail {
-  height: 75vh;
+  height: 100vh;
   background: chocolate;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  color: rgb(39, 37, 37);
   font-size: xx-large;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
