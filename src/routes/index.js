@@ -4,6 +4,8 @@ import Index from '../pages/home';
 import About from '../pages/about/about';
 import Projects from '../pages/Projects/projects';
 import Contact from '../pages/contact/contact'
+import Error from '../pages/error/error'
+
 
 
 
@@ -15,6 +17,7 @@ export default function Routes() {
             <Route path='/about' exact component={About} /> 
             <Route path='/projects' exact component={Projects} />  
             <Route path='/contact' component={Contact} /> 
+            <Route path='*' component={Error} /> 
         </Switch>
     )
 }
