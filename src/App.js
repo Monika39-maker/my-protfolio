@@ -7,10 +7,6 @@ import history from './services/history';
 
 
 class Index extends React.Component {
-  constructor(props) {
-    super(props);
-    
-  }
  
   render() {
     return (
