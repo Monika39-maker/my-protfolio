@@ -1,5 +1,5 @@
-import 'C:/Users/vicky/OneDrive/Desktop/New folder/my-protfolio/src/App.css';
-import picture from 'C:/Users/vicky/OneDrive/Desktop/New folder/my-protfolio/src/profile-image2.jpg'
+import '../../App.css';
+import picture from '../../profile-image2.jpg'
 import {FaPhoneSquareAlt} from 'react-icons/fa'
 
 
