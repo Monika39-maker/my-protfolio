@@ -1,6 +1,6 @@
 import React from 'react';
 import {Table} from 'react-bootstrap';
-import '../../../src/App.css'
+
 
 
 
@@ -10,7 +10,7 @@ export default function Index() {
           <div className="text-center">
             <h1>My CV</h1>
             <h3>Education</h3>
-            <Table striped bordered hover size="sm" className='margin3'>
+            <Table striped bordered hover >
               <thead>
                 <tr>
       
@@ -46,7 +46,7 @@ export default function Index() {
             </tbody>
           </Table>
             <h3>Work Experience</h3>
-            <Table striped bordered hover size="sm" className='margin3'>
+            <Table>
               <thead>
                 <tr>
       

@@ -49,14 +49,14 @@ export default class Contact extends Component {
             </div>
             <div className="contact">
                 <div className="icons">
-                    <AiOutlineMail className="icon"/>
-                    <AiOutlinePhone className="icon"/>
-                    <AiOutlineMessage className="icon"/>
+                    <AiOutlineMail className="icon icon1"/>
+                    <AiOutlinePhone className="icon icon2"/>
+                    <AiOutlineMessage className="icon icon3"/>
                 </div>
                 <div className="contact-details">
-                    <p className="contact-detail">chayadangol@gmail.com</p>
-                    <p  className="contact-detail">447412095299</p>
-                    <p  className="contact-detail">447412095299</p>
+                    <p className="contact-detail contact-1">chayadangol@gmail.com</p>
+                    <p  className="contact-detail contact-2">447412095299</p>
+                    <p  className="contact-detail contact-3">447412095299</p>
                 </div>
             
             </div>

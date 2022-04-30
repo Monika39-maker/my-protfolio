@@ -13,7 +13,7 @@ class Index extends React.Component {
  
   render() {
     return (
-        <div>
+        <div className='main' >
           
           <Navbar />
           <Router history={history}>

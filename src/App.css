@@ -1,6 +1,12 @@
 
 body {
   margin-right: 10%;
+  background: rgb(2,0,36);
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 28%, rgba(73,73,235,1) 100%);
+}
+.white-text{
+ color: #fff; 
 }
 .main {
   width: 100vw;
@@ -142,3 +148,12 @@ a {
   font-size: xx-large;
   overflow-y: hidden;
 }
+table, tr, th, td {
+  border: 2px solid blue
+
+}
+table {
+  width: 100%
+}
+
+

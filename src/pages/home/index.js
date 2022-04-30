@@ -9,9 +9,9 @@ function Index() {
             <div className="intro-texts">
                 
                 <h1>"Hello World", </h1>
-                <p>I am Monika, an <strong>fullstack developer</strong></p>
-                <span className="phone-link">
-                    <a href="tel:7412095299">
+                <p className='white-text'>I am Monika, a <strong>fullstack developer</strong></p>
+                <span className="phone-link white-text">
+                    <a href="tel:7412095299" className="phone-link white-text">
                         <FaPhoneSquareAlt color="black" style={{fontSize: '1.5rem'}}/>
                         07412095299
                     </a>
