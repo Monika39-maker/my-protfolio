@@ -8,8 +8,8 @@ export default function Index() {
     return (
         <div>
           <div className="text-center">
-            <h1>My CV</h1>
-            <h3>Education</h3>
+            <h1 className='text-centre'>My CV</h1>
+            <h3 className='text-centre'>Education</h3>
             <Table striped bordered hover >
               <thead>
                 <tr>
@@ -45,7 +45,7 @@ export default function Index() {
                 </tr>
             </tbody>
           </Table>
-            <h3>Work Experience</h3>
+            <h3 className='text-centre'>Work Experience</h3>
             <Table>
               <thead>
                 <tr>
@@ -88,7 +88,7 @@ export default function Index() {
           </Table>
           </div>
             
-          <div className="margin3">
+          <div className="margin3 text-size-medium">
             <h3>Other Qualifications</h3>
             <ul>
               <li>Knowledge of html, CSS and Javascript, Python, Django, React, NodeJs</li>
@@ -98,7 +98,7 @@ export default function Index() {
               <li>Carers training for people with learning disablilities</li>
             </ul>
           </div>
-          <div className="margin3">
+          <div className="margin3 text-size-medium">
             <h3>Hobbies</h3>
             <ul>
               <li>Playing escape games and riddles</li>
@@ -108,7 +108,7 @@ export default function Index() {
               <li>Cooking</li>
             </ul>
           </div>
-          <div className="margin3">
+          <div className="margin3 text-size-medium">
             <h3>Languages Spoken</h3>
             <ul>
               <li>Nepalese</li>
